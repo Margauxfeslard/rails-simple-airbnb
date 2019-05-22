@@ -1,0 +1,10 @@
+<div class="card-body border m-3 p-0 rounded">
+  <img src="https://source.unsplash.com/random/800x600" class="card-img-top rounded-top" alt="">
+  <h5 class="card-title p-1"><%= @flat.name %></h5>
+  <p class="card-text p-1"><%= @flat.address %></p>
+  <p class="card-desc p-1"><%= @flat.description %></p>
+  <p class="card-people p-1"><%= @flat.number_of_guests %><i class="fas fa-user-friends"></i></p>
+  <p class="card-price p-1"><%= @flat.price_per_night %><i class="fas fa-euro-sign"></i></p>
+</div>
+<% end %>
+
